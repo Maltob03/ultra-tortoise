@@ -1,5 +1,5 @@
 ---
-title: Big plants
+title: Pants
 layout: category
 order: 1
 seo:
