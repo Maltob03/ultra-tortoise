@@ -118,17 +118,7 @@
         }
     }
 
-    &__price {
-        font-family: $font_family_primary;
-        margin-bottom: $spacing--unit*5;
-        font-size: $font_size_large;
-        font-weight: 600;
-        color: $color_darker;
-
-        @include smaller-than-tablet { 
-            font-size: $font_size_medium;
-        }
-    }
+    
 
     &__description {
         font-size: $font_size_regular;
@@ -145,9 +135,10 @@
         align-items: center;
         height: $spacing--unit*13;
         background-color: $color_active;
+        font-family: $font_family_primary;
         font-size: $spacing--unit*2;
         font-weight: bold;
-        color: white;
+        color: black;
         background-size: auto 700%;
         background-position: center;
         margin-top: auto;
@@ -161,7 +152,8 @@
     }
 
     &__back-to-store-link {
-        color: white;
+        font-family: $font_family_primary;
+        color: black;
         font-weight: bold;
         font-size: $spacing--unit*2;
         svg {
@@ -195,7 +187,6 @@
             }
 
             &__title,
-            &__price,
             &__category {
                 color: map-deep-get($theme-palettes, $palette, "darker");
             }

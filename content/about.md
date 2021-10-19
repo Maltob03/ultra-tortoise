@@ -5,15 +5,10 @@ page_css_class: gray-background
 sections:
   - type: header_section
     section_id: header_section
-    background_image: /images/leaf-light-grey.svg
-    headline: We are Planty
+    background_image: /images/leaf-light-grey.jpg
+    headline: We are Incipit
     subtitle: >-
-      Well, not really. We’re [Snipcart](http://bit.ly/2YB7AUL)—a bunch of geeks
-      from Québec City. Planty is a theme we built for
-      [Stackbit](https://www.stackbit.com/), a killer JAMstack site-builder. To
-      enable e-commerce on Planty, you’ll need to [sign up for
-      Snipcart](http://bit.ly/2YzKmhP). Testing is forever free, no credit card
-      required.
+          Devorè Incipit è un progetto della DEFRA SRL, azienda campana che da più di 60 è presente nel settore del fashion. Devorè Incipit è un progetto di pantaloni uomo che pone l'accento sulla qualità e la ricercatezza dei materiali. Nessun dettaglio è lasciato al caso: dal label in seta ai bottoni in corno: l'attenzione ai particolari dona unicità ad un capo che vuole collocarsi nel guardaroba dell'uomo tra quegli articoli ``senza tempo``.
   - type: bulletpoints_section
     section_id: bulletpoints_section
     bulletpoints:
@@ -36,17 +31,13 @@ sections:
           JAMstack](https://jamstack.org/) might be one solid pillar on which we
           build that future.
         image: images/team.jpg
-  - type: promotion_section
-    section_id: promotion_section
-    title: A new home interior for summer
-    subtitle: from $149.99
+  - type: contact_section
     image: images/promo.jpg
-    background_image: /images/leaf.svg
-    cta:
-      title: Discover
-      url: /store
-      style: primary
-      arrow: true
+    section_id: contact_section
+    address: '226 rue St-Joseph E, Québec, QC, Canada, G1K 3A9'
+    phone: +1-202-555-0112
+    email: geeks@snipcart.com
+    mapUrl: 'https://goo.gl/maps/g6za62bN9BHrNTVt5'
 seo:
   title: About
   description: This is the about page

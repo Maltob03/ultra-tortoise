@@ -114,7 +114,7 @@
     .contact {
       &__section {
         &:last-child {
-          background-color: map-deep-get($theme-palettes, $palette, "dark");
+          background-image: "../images/leaf-light-grey.jpg";
         }
       }
 

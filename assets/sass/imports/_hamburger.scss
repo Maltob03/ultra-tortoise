@@ -41,15 +41,11 @@
     font-size: $font_size_medium;
   }
 
-  &__checkout {
-    cursor: pointer;
-    font-size: $font_size_regular;
-    margin-top: 30px;
-    margin-bottom: 70px;
-  }
+  
 
   &__nav {
     text-align: center;
+    color: black;
   }
 
   &__nav-item {

@@ -1,12 +1,12 @@
 // Default palette
 $color_default:       #fff;
-$color_lightest:      #f7fafa;
+$color_lightest:      #fbf0e4;
 $color_lighter:       #f0f5f6;
 $color_light:         #d9dfe0;
 $color_medium:        #6b797a;
-$color_dark:          #384647;
+$color_dark:          #fbf0e4;
 $color_darker:        #273132;
-$color_active:        #88dd9b;
+$color_active:        #8b8b8b;
 $color_active_light:  #c0fdb6;
 $color_active_medium: #5c9174;
 $color_active_dark:   #547567;
@@ -40,13 +40,13 @@ $theme_palettes: (
 );
 
 // Font family
-$font_family_primary:   'Open Sans', sans-serif;
+$font_family_primary:   'Italianno', cursive;
 $font_family_secondary: 'Lato', sans-serif;
 
 // Font sizes
-$font_size_xxlarge: 64px;
-$font_size_xlarge:  48px;
-$font_size_large:   32px;
+$font_size_xxlarge: 128px;
+$font_size_xlarge:  64px;
+$font_size_large:   48px;
 $font_size_medium:  24px;
 $font_size_regular: 20px;
 $font_size_small:   16px;

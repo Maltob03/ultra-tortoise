@@ -1,30 +1,30 @@
 {
     "title": "Planty",
     "favicon": "images/favicon.png",
-    "logo_dark": "images/logo.svg",
-    "logo_light": "images/logo-white.svg",
-    "hamburger_background_image": "/images/leaf-light-grey.svg",
+    "logo_dark": "images/logon.png",
+    "logo_light": "images/logon.png",
+    "hamburger_background_image": "/images/leaf-light-grey.jpg",
     "bg_image_primary": "/images/header.jpg",
-    "bg_image_primary_opacity": 60,
-    "bg_image_secondary": "/images/leaf-light-grey.svg",
-    "bg_image_product": "/images/leaf.svg",
+    "bg_image_primary_opacity": 100,
+    "bg_image_secondary": "/images/leaf-light-grey.jpg",
+    "bg_image_product": "/images/leaf-light-grey.jpg",
     "snipcart_api_key": "",
     "footer_text": "Copyright 2021 Planty Inc. All rights reserved.",
     "palette": "green",
     "main_menu": [
         {
-            "title": "Store",
+            "title": "Home",
+            "url": "/",
+            "style": "link"
+        },
+        {
+            "title": "Products",
             "url": "/store",
             "style": "link"
         },
         {
             "title": "About",
             "url": "/about",
-            "style": "link"
-        },
-        {
-            "title": "FAQ",
-            "url": "/faq",
             "style": "link"
         }
     ],

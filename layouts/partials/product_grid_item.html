@@ -8,7 +8,7 @@
         </a>
         <figcaption>
             {{ $include_dict = dict "product_page" $product_page "component" "product-grid" }}
-            {{ partial "small_buy_button.html" $include_dict }}
+            
         </figcaption>
     </figure>
     <div class="product-grid__definition">
@@ -17,6 +17,6 @@
             {{ $category_page := $.Site.GetPage "page" ( $product_page.Params.category | strings.TrimPrefix "content/" ) }}
             <span class="product-grid__category"> {{ $category_page.Title }} </span>
         {{ end }}
-        <span class="product-grid__price"> ${{ $product_page.Params.price }} </span>
+        
     </div>
 </li>

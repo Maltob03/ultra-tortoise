@@ -1,4 +1,6 @@
 .store {
+
+    
     &__title {
         font-family: $font_family_primary;
         font-size: $font_size_xlarge;
@@ -7,7 +9,7 @@
             font-size: $font_size_large; 
             line-height: 42px;
         }
-        color: $color_darker;
+        
     }
 
     &__container {
@@ -31,7 +33,7 @@
         height: -moz-fit-content;
         height: fit-content;
         position: relative;
-        background-color: $color_lightest;
+        background-image: $color_lightest;
         border-radius: 0px $spacing--unit*3 $spacing--unit*3 0px;
         margin-right: 50px;
         &:before {
@@ -101,6 +103,7 @@
     }
 
     &__products {
+
         width: 100%;
         max-width: 1000px;
     }

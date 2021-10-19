@@ -4,8 +4,11 @@ layout: store
 sections:
   - type: store_section
     section_id: store_section
+    background_image: /images/leaf-light-grey.jpg
   - type: featured_products_section
     section_id: featured_products_section
+    background_image: /images/leaf-light-grey.jpg
+
     title: Best sellers
     icon: true
     featured_products:
@@ -13,17 +16,6 @@ sections:
       - content/products/plant3.md
       - content/products/plant5.md
       - content/products/plant7.md
-  - type: promotion_section
-    section_id: promotion_section
-    title: A new home interior for summer
-    subtitle: from $149.99
-    image: images/promo.jpg
-    background_image: /images/leaf.svg
-    cta:
-      title: Discover
-      url: /store
-      style: secondary
-      arrow: true
 seo:
   title: Store
   description: This is the store page
@@ -48,6 +40,6 @@ seo:
     - name: 'twitter:description'
       value: This is the store page
     - name: 'twitter:image'
-      value: images/header.jpg
+      value: images/leaf-light-grey.jpg
       relativeUrl: true
 ---

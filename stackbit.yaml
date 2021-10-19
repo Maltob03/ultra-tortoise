@@ -394,8 +394,6 @@ models:
         name: description
         label: Description
       - type: string
-        name: price
-        label: Price
       - type: number
         name: order
         label: Order
